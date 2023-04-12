@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
-#banner {
+/*#banner {
     background-image: url("../img/sociedade.jpg");
     height: 896px;
     background-repeat: no-repeat;
@@ -35,11 +35,10 @@ li {
 
 #banner h2 {
     color: sandybrown;
-}
+}*/
 
-section div {
-    padding: 15px;
-    margin: 10px;
+#titulo {
+    text-shadow: #b0760c;
 }
 
 h1, h2, h3, h4, p {
@@ -54,9 +53,10 @@ h1{
 
 h2{
     margin-bottom: 10px;
+
 }
 
-h3{
+/*h3{
     margin-top: 10px;
 }
 
@@ -68,14 +68,14 @@ h3{
     color: #9583B6;
 }
 
+figcaption {
+    text-align: center;
+}*/
+
 img {
     display: block;
     margin: auto;
     box-sizing: border-box;
-}
-
-figcaption {
-    text-align: center;
 }
 
 @font-face {
@@ -83,7 +83,7 @@ figcaption {
     src: url("../fonts/RINGM___.TTF");
 }
 
-.return{
+/*.return{
     font-size: 20px;
     font-weight: bold;
     color: lightblue;
@@ -96,6 +96,10 @@ figcaption {
     border: 5px solid white;
     border-radius: 5px;
     text-decoration: none;
+}*/
+
+.container__filmes {
+    display: flex;
 }
 
 .card {
@@ -175,4 +179,8 @@ figcaption {
 .card__botao a{
     color: white;
     text-decoration: none;
+}
+
+.oscar {
+    margin-top: 60px;
 }

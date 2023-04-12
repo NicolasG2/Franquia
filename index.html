@@ -10,7 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
 
-  <title>Atividade CSS</title>
+  <title>O Senhor dos Anéis</title>
   <link rel="shortcut icon" href="img/ring.jpg" type="image/x-icon">
 </head>
 
@@ -19,6 +19,13 @@
   <header>
     <h1 id="titulo">O Senhor dos Anéis</h1>
     <h2>Veja sobre a trilogia de filmes que mudou toda a forma de se imaginar fantasia e adaptações literárias</h2>
+  </header>
+
+  <!--<main>
+    <div id="banner"></div>
+  </main>-->
+
+  <!--
 
     <nav>
       <ul>
@@ -27,13 +34,9 @@
         <li><a href="#container__retorno"> O Senhor dos Anéis - O Retorno do Rei</a></li>
       </ul>
     </nav>
-  </header>
 
-  <main>
-    <div id="banner"></div>
-  </main>
+    Atores
 
-  <hr>
   <ul>
     <li>Elijah Wood como Frodo Bolseiro</li>
     <li>Ian McKellen como Gandalf, o Cinzento</li>
@@ -42,7 +45,30 @@
     <li>Viggo Mortensen como Aragorn</li>
   </ul>
 
-  <div class="container__sociedade">
+  <ul>
+      <li>Elijah Wood como Frodo Bolseiro</li>
+      <li>Ian McKellen como Gandalf, o Cinzento</li>
+      <li>Sean Astin como Samwise "Sam" Gamgee</li>
+      <li>Orlando Bloom como Legolas</li>
+      <li>Viggo Mortensen como Aragorn</li>
+      <li>Dominic Monaghan como Meriadoc "Merry" Brandybuck</li>
+      <li>Billy Boyd como Peregrin "Pippin" Took</li>
+      <li>John Rhys-Davies como Gimli</li>
+    </ul>
+
+     <ul>
+      <li>Elijah Wood como Frodo Bolseiro</li>
+      <li>Ian McKellen como Gandalf, o Cinzento</li>
+      <li>Sean Astin como Samwise "Sam" Gamgee</li>
+      <li>Orlando Bloom como Legolas</li>
+      <li>Viggo Mortensen como Aragorn</li>
+      <li>Andy Serkins como Gollum</li>
+      <li>Bernard Hill como Theoden</li>
+    </ul>
+
+  -->
+
+  <div class="container__filmes">
 
     <div class="card">
 
@@ -68,22 +94,6 @@
         </button>
       </div>
     </div>
-  </div>
-
-  <hr>
-
-  <ul>
-    <li>Elijah Wood como Frodo Bolseiro</li>
-    <li>Ian McKellen como Gandalf, o Cinzento</li>
-    <li>Sean Astin como Samwise "Sam" Gamgee</li>
-    <li>Orlando Bloom como Legolas</li>
-    <li>Viggo Mortensen como Aragorn</li>
-    <li>Dominic Monaghan como Meriadoc "Merry" Brandybuck</li>
-    <li>Billy Boyd como Peregrin "Pippin" Took</li>
-    <li>John Rhys-Davies como Gimli</li>
-  </ul>
-
-  <div class="container__duastorres">
 
     <div class="card">
 
@@ -99,28 +109,18 @@
           Gimli chegam ao reino de Rohan, onde o rei Theoden foi vítima de uma maldição mortal de Saruman.
         </p>
 
-        <span>Vencedor de dois Oscars</span>
+        <div class="oscar">
+          <span>Vencedor de dois Oscars</span>
+        </div>
+
       </div>
 
       <div class="card__botao">
         <button>
-          <a href="https://www.youtube.com/watch?v=nGOMJH8ezpM">Assitir trailer</a>
+          <a href="https://www.youtube.com/watch?v=Al5iC4CnhYc">Assitir trailer</a>
         </button>
       </div>
     </div>
-  </div>
-
-  <ul>
-    <li>Elijah Wood como Frodo Bolseiro</li>
-    <li>Ian McKellen como Gandalf, o Cinzento</li>
-    <li>Sean Astin como Samwise "Sam" Gamgee</li>
-    <li>Orlando Bloom como Legolas</li>
-    <li>Viggo Mortensen como Aragorn</li>
-    <li>Andy Serkins como Gollum</li>
-    <li>Bernard Hill como Theoden</li>
-  </ul>
-
-  <div class="container__retorno">
 
     <div class="card">
 
@@ -136,7 +136,10 @@
           viagem rumo à Montanha da Perdição, para destruir o Um Anel.
         </p>
 
-        <span>Vencedor de onze Oscars</span>
+        <div class="oscar">
+          <span>Vencedor de onze Oscars</span>
+        </div>
+          
       </div>
 
       <div class="card__botao">
@@ -151,17 +154,21 @@
 
     <hr>
 
-    <div class="return">
+    <!--<div class="return">
       <a href="#titulo"> Voltar ao topo </a>
-    </div>
+    </div>-->
 
     <span>Contatos:</span>
 
-    <i class="fa-brands fa-instagram"></i>
-    <span>Instagram: @nicolascapim</span>
+    <div class="instagram">
+      <i class="fa-brands fa-instagram"></i>
+      <span id="instagram">Instagram: <a href="https://www.instagram.com/nicolascapim/">@nicolascapim</a></span>
+    </div>
 
-    <i class="fa-brands fa-whatsapp"></i>
-    <span>Whatsapp: +55 (41) 99853-1153</span>
+    <div class="whatsapp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Whatsapp: <a href="https://wa.me/5541998531153">+55 41 99853-1153</a></span>
+    </div>
 
   </footer>
 </body>
