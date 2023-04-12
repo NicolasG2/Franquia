@@ -9,6 +9,34 @@ html{
     scroll-behavior: smooth;
 }
 
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 25px;
+}
+
+.cabecalho nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.cabecalho nav li a{
+    color: #4683B7;
+    text-decoration: none;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #FCBABC;
+}
+
+.container__produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*#banner {
     background-image: url("../img/sociedade.jpg");
     height: 896px;
@@ -100,15 +128,18 @@ img {
 
 .container__filmes {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
+    display: flex;
     width: 400px;
     height: 720px;
     border: 1px solid;
     border-radius: 20px;
-    margin : auto;
     overflow: hidden;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card__fundo__sociedade {
@@ -117,7 +148,6 @@ img {
     background-image: url("../img/primeiro.jpg");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    position: relative;
 }
 
 .card__fundo__duastorres {
@@ -126,7 +156,6 @@ img {
     background-image: url("../img/segundo.jpg");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    position: relative;
 }
 
 .card__fundo__retorno {
@@ -135,29 +164,46 @@ img {
     background-image: url("../img/terceiro.jpg");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    position: relative;
+}
+
+.card__fundo__sociedade figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__fundo__duastorres figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__fundo__retorno figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card__img {
     width: 50%;
-    position: absolute;
-    top: 60px;
-    left: 110px;
 }
 
 .card__descricao {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
 }
 
 .card__descricao h2 {
-    margin-bottom: 20px;
     text-align: center;
     color: lightseagreen;
 }
 
 .card__descricao p {
-    margin-bottom: 20px;
     text-align: justify;
+    flex-grow: 1;
+    padding: 0 20px;
 }
 
 .card__descricao span {
@@ -167,9 +213,14 @@ img {
     display: block;
 }
 
+.card__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .card__botao button{ 
-    display: block;
-    margin: auto;
     border: 1px solid lightseagreen;
     padding: 10px 15px;
     border-radius: 5px;
