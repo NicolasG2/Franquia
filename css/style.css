@@ -56,8 +56,7 @@ html {
 .container__filmes {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -130,18 +129,81 @@ html {
 }
 
 .card__botao button {
-    border: 1px solid lightseagreen;
+    background-color: lightseagreen;
+    border: none;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: lightseagreen;
 }
 
 .card__botao a {
-    color: white;
+    color: darkslategray;
     text-decoration: none;
     font-size: 20px;
 }
 
+.card__botao a:hover {
+    background-color: rgb(15, 80, 77);
+    color: rgb(240, 240, 240);
+}
+
 .contatos {
     padding-top: 5px;
+}
+
+.formulario {
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario__titulo {
+    text-align: center;
+}
+
+.formulario__campos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formulario__campos input, textarea {
+    background-color: rgb(240, 240, 240);
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+}
+
+.formulario__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.formulario__botoes button {
+    height: 30px;
+    width: 70px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    color: darkslategray;
+}
+
+.formulario__botoes button[type="submit"] {
+    font-weight: bold;
+}
+
+.formulario__botoes button:hover {
+    background-color: rgb(15, 80, 77);
+    color: rgb(240, 240, 240);
 }
