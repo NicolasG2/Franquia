@@ -1,5 +1,4 @@
 * {
-    font-family: ringbearer, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,6 +14,7 @@ html {
 }
 
 .cabecalho {
+    font-family: ringbearer;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -54,6 +54,7 @@ html {
 }
 
 .container__filmes {
+    font-family: ringbearer;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -129,6 +130,7 @@ html {
 }
 
 .card__botao button {
+    font-family: ringbearer;
     background-color: lightseagreen;
     border: none;
     padding: 10px 15px;
@@ -170,13 +172,27 @@ html {
     text-align: center;
 }
 
-.formulario__campos {
+.formulario__radio {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.formulario__campos input, textarea {
+.formulario__radio input, textarea {
+    background-color: rgb(240, 240, 240);
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+}
+
+.formulario__check {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formulario__check input, textarea {
     background-color: rgb(240, 240, 240);
     color: darkslategray;
     padding: 10px;
