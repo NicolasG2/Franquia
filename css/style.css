@@ -1,5 +1,5 @@
 * {
-    font-family: ringbearer;
+    font-family: ringbearer, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -151,6 +151,7 @@ html {
 }
 
 .formulario {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 80%;
     border: 1px solid;
     border-radius: 10px;
