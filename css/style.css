@@ -168,17 +168,17 @@ html {
     gap: 20px;
 }
 
-.formulario__titulo {
-    text-align: center;
+.formulario p {
+    font-weight: bold;
 }
 
-.formulario__radio {
+.formulario__campos {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.formulario__radio input, textarea {
+.formulario__campos input, textarea {
     background-color: rgb(240, 240, 240);
     color: darkslategray;
     padding: 10px;
@@ -186,9 +186,25 @@ html {
     border: 1px solid darkslategray;
 }
 
-.formulario__check {
+.formulario__radio input {
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    gap: 8px;
+}
+
+.formulario__radio input, textarea {
+    background-color: rgb(235, 191, 191);
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+}
+
+.formulario__check input{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     gap: 8px;
 }
 
