@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ringbearer;
+    src: url("../fonts/RINGM___.TTF");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    font-family: ringbearer;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 25px;
+}
+
+.cabecalho nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.cabecalho nav li a {
+    color: #4683B7;
+    text-decoration: none;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #FCBABC;
+}
+
+.logo img {
+    padding-top: 15px;
+    height: 15%;
+    width: 15%;
+}
+
+.titulo {
+    display: flex;
+    padding-right: 75px;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    color: #b8860c;
+}
+
+.container__filmes {
+    font-family: ringbearer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 720px;
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__fundo__sociedade {
+    height: 250px;
+    background-size: cover;
+    background-image: url("../img/primeiro.jpg");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card__fundo__duastorres {
+    height: 250px;
+    background-size: cover;
+    background-image: url("../img/segundo.jpg");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card__fundo__retorno {
+    height: 250px;
+    background-size: cover;
+    background-image: url("../img/terceiro.jpg");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.card__descricao h2 {
+    text-align: center;
+    color: lightseagreen;
+}
+
+.card__descricao p {
+    text-align: justify;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.card__descricao span {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.card__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card__botao button {
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.card__botao a {
+    font-family: ringbearer;
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card__botao a:hover {
+    background-color: rgb(15, 80, 77);
+    color: rgb(240, 240, 240);
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}

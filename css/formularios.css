@@ -1,0 +1,156 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.formulario__dados, .formulario__preferencias {
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario__dados p, .formulario__preferencias p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.dados__titulo {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/cafe.jpg");
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+.preferencias__titulo {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/ceu.jpg");
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: rgb(190, 190, 190);
+}
+
+.formulario__campos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formulario__campos input, textarea {
+    background-color: rgb(240, 240, 240);
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+}
+
+.formulario__radio input, textarea {
+    background-color: rgb(235, 191, 191);
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+}
+
+.formulario__check div, .formulario__radio div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.formulario__check input, textarea {
+    background-color: rgb(240, 240, 240);
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+}
+
+.formulario__dados__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.formulario__dados__botoes button {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(237, 34, 40);
+    border: none;
+    border-radius: 5px;
+    color: rgb(215, 238, 238);
+}
+
+.formulario__dados__botoes button[type="submit"] {
+    font-weight: bold;
+    background-color: rgb(2, 170, 232);
+}
+
+.formulario__dados__botoes button[type="submit"]:hover {
+    font-weight: bold;
+    background-color: rgb(0, 73, 100);
+}
+
+.formulario__dados__botoes button:hover {
+    background-color: rgb(99, 0, 3);
+    color: rgb(240, 240, 240);
+}
+
+.formulario__preferencias__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.formulario__preferencias__botoes button {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(0,96,129);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.formulario__preferencias__botoes button[type="submit"] {
+    font-weight: bold;
+    background-color: rgb(244, 231,91);
+    color: black;
+}
+
+.formulario__preferencias__botoes button[type="submit"]:hover {
+    font-weight: bold;
+    background-color: rgb(131, 122, 23);
+}
+
+.formulario__preferencias__botoes button:hover {
+    background-color: rgb(1, 149, 199);
+    color: rgb(240, 240, 240);
+}

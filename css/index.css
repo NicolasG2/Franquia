@@ -1,0 +1,99 @@
+* {
+    font-family: ringbearer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#banner {
+    background-image: url("../img/sociedade.jpg");
+    height: 896px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    margin: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#banner h2 {
+    color: sandybrown;
+}
+
+section div {
+    padding: 15px;
+    margin: 10px;
+}
+
+h1, h2, h3, h4, p {
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #b8860c;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.titulo-temporada {
+    color: lightseagreen;
+}
+
+.subtitulos-temporada {
+    color: #9583B6;
+}
+
+img {
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+figcaption {
+    text-align: center;
+}
+
+@font-face {
+    font-family: ringbearer;
+    src: url("../fonts/RINGM___.TTF");
+}
+
+.return{
+    font-size: 20px;
+    font-weight: bold;
+    color: lightblue;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
