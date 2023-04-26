@@ -172,6 +172,18 @@ html {
     font-weight: bold;
 }
 
+.dados__titulo {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/cafe.jpg");
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
 .formulario__campos {
     display: flex;
     flex-direction: column;
@@ -216,7 +228,38 @@ html {
     border: 1px solid darkslategray;
 }
 
-.formulario__botoes {
+.formulario__dados__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.formulario__dados__botoes button {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(237, 34, 40);
+    border: none;
+    border-radius: 5px;
+    color: rgb(215, 238, 238);
+}
+
+.formulario__dados__botoes button[type="submit"] {
+    font-weight: bold;
+    background-color: rgb(2, 170, 232);
+}
+
+.formulario__dados__botoes button[type="submit"]:hover {
+    font-weight: bold;
+    background-color: rgb(0, 73, 100);
+}
+
+.formulario__dados__botoes button:hover {
+    background-color: rgb(99, 0, 3);
+    color: rgb(240, 240, 240);
+}
+
+/*.formulario__botoes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,17 +269,23 @@ html {
 .formulario__botoes button {
     height: 30px;
     width: 70px;
-    background-color: lightseagreen;
+    background-color: rgb(237, 34, 40);
     border: none;
     border-radius: 5px;
-    color: darkslategray;
+    color: rgb(215, 238, 238);
 }
 
 .formulario__botoes button[type="submit"] {
     font-weight: bold;
+    background-color: rgb(2, 170, 232);
+}
+
+.formulario__botoes button[type="submit"]:hover {
+    font-weight: bold;
+    background-color: rgb(0, 73, 100);
 }
 
 .formulario__botoes button:hover {
-    background-color: rgb(15, 80, 77);
+    background-color: rgb(99, 0, 3);
     color: rgb(240, 240, 240);
-}
+}*/
