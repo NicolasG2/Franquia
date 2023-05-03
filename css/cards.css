@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 .cabecalho {
@@ -26,6 +27,7 @@ html {
     display: flex;
     gap: 30px;
     list-style-type: none;
+    font-size: 1.3rem;
 }
 
 .cabecalho nav li a {
@@ -46,14 +48,13 @@ html {
 .titulo {
     display: flex;
     padding-right: 75px;
-    font-size: 60px;
+    font-size: 3rem;
     color: #b8860c;
 }
 
 .container__filmes {
     font-family: ringbearer;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -110,13 +111,7 @@ html {
     text-align: justify;
     flex-grow: 1;
     padding: 0 20px;
-}
-
-.card__descricao span {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    display: block;
+    font-size: 1rem;
 }
 
 .card__botao {
@@ -136,7 +131,7 @@ html {
     font-family: ringbearer;
     color: darkslategray;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .card__botao a:hover {
@@ -144,8 +139,26 @@ html {
     color: rgb(240, 240, 240);
 }
 
-.contatos {
+.oscar span {
     display: flex;
-    flex-direction: column;
-    gap: 20px
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 460px) {
+    html {
+        font-size: 12px;
+    }
 }
