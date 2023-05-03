@@ -46,10 +46,7 @@ html {
 .titulo {
     display: flex;
     padding-right: 75px;
-}
-
-.titulo h1 {
-    font-size: 40px;
+    font-size: 60px;
     color: #b8860c;
 }
 
